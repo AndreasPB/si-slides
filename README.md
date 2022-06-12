@@ -44,7 +44,7 @@
 
 # Microservices
 
-- Containerization
+Containerization
   
 <img src="static/containers.png">
 
