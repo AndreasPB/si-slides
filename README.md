@@ -32,12 +32,15 @@
 # Microservices
 
 - Containerization
+  - Scalability
   - Discoverability
     - Docker Networks
-- Scalability
+
+---
+
 - Database per Service
 - Deployment
-  - Serverless frontend
+  - Serverless frontend with Vercel
 - API Gateway
 
 ---
