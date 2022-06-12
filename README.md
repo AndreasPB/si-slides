@@ -47,12 +47,15 @@
 - Access Token
   - JWT
 
-<img src="static/login.png" height="400px">
+<img src="static/login.png">
 
-- Dependency Injection
+---
 
-<img src="static/verify_mitid.png" height="400px">
-<img src="static/dependency_injection.png" height="400px">
+Dependency Injection
+
+<img src="static/verify_mitid.png">
+
+<img src="static/dependency_injection.png">
 
 ---
 
