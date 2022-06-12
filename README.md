@@ -24,8 +24,21 @@
   - Decoupling of clients from services
   - Data transformation/Conversion between transport protocols
   - Routing between services
-- Implementation
-  - Indsæt billeder fra ESB-kode her
+
+---
+
+# Code
+
+---
+
+- Pros
+  - Centralized integration logic makes for easier development of services
+  - Many transport protocols can be supported at once
+- Cons
+  - Single point of failure
+  - ESB becomes a monolith, more difficult to maintain
+- Alternatives
+  - Smart endpoints and dumb pipes
 
 ---
 
@@ -62,6 +75,6 @@ Dependency Injection
 
 ---
 
-# Stubbing and Drivers
+# 
 
 ---
