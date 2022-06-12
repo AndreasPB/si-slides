@@ -19,9 +19,13 @@
 ---
 
 # ESB
-- Why
-- What
-- Who
+
+- Motivation
+  - Decoupling of clients from services
+  - Data transformation/Conversion between transport protocols
+  - Routing between services
+- Implementation
+  - Indsæt billeder fra ESB-kode her
 
 ---
 
