@@ -45,9 +45,8 @@
 # Microservices
 
 - Containerization
-  - Scalability
-  - Discoverability
-    - Docker Networks
+  
+<img src="static/containers.png">
 
 ---
 
