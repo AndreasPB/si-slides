@@ -59,7 +59,6 @@ Containerization
 - Database per Service
 - Deployment
   - Serverless frontend with Vercel
-- API Gateway
 
 ---
 
@@ -80,6 +79,8 @@ Dependency Injection
 
 ---
 
-# 
+# UI
+- Problem: How to implement a UI screen or page that displays data from multiple services?
+  - Server-Side Page Fragment Composition
+  - Client-Side UI Composition
 
----
