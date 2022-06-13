@@ -23,18 +23,17 @@
 # ESB
 
 - Motivation
-  - Decoupling of clients from services
+  - Simplifies the interfacing of services
   - Data transformation/conversion
   - Routing between services
 
 ---
 
-# Code
 <img src="static/message_struct.png">
 <img src="static/esb_createmessage.png" height="350px">
 
 ---
-# Code
+
 <img src="static/esb_readmessages.png">
 
 ---
@@ -47,40 +46,17 @@ Hoppscotch/Postman
 
 ---
 
-- Pros
-  - Centralized integration makes for easier development of services
-  - Many transport protocols can be supported at once
-  - Keeps you from implementing all of your protocols in every service
-
----
-
 - Cons
   - Single point of failure
-  - ESB becomes a monolith and difficult to maintain
-
-- Alternatives
-  - Smart endpoints and dumb pipes
+  - ESB can become a monolith and difficult to maintain
 
 ---
 
-# Microservices
+# Containers
+
+Database per service
 
 <img src="static/containers.png" height="400px">
-
----
-
-# Hosted
-
-- Vercel:
-  - Frontend
-    - https://si-mandatory1.vercel.app/
-
-- Hetzner:
-  - Backend
-    - http://python.si.streamchaser.tv/docs
-  - ESB
-    - http://78.46.225.191:9999/
-
 
 ---
 
@@ -104,40 +80,55 @@ Dependency Injection
 # Deployment
 
 - Multiple service instances per host
-- Single Service Instance per Host
+- Single Service Instance per host
 - Serverless deployment
 
 ---
 
 ## Multiple 
 
-Pros
-- Efficient resource utilization
+- Pros
+  - Efficient resource utilization
 
-Cons
-- Conflicting resource requirements
+- Cons
+  - Conflicting resource requirements
 
 ---
 
 ## Single
 
-Pros
-- Clear isolation
-- No conflicts in resources or dependencies
+- Pros
+  - Clear isolation
+  - No conflicts in resources or dependencies
 
-Cons
-- Resource utilization overhead
+- Cons
+  - Resource utilization overhead
+  - Complexity in scaling
 
 ---
 
 ## Serverless
 
-Pros
-- Elastic scaling
-- Reduced time spend on low-level infrastructure
+- Pros
+  - Elastic scaling
+  - Reduced time spend on low-level infrastructure
+  - Out-of-the-box reverse proxy
 
-Cons
-- Limitations/constrains
-- Reactive scaling
+- Cons
+  - Limitations/constraints
+
+---
+
+# Our hosting
+
+- Vercel:
+  - Frontend
+    - https://si-mandatory1.vercel.app/
+
+- Hetzner:
+  - Backend
+    - http://python.si.streamchaser.tv/docs
+  - ESB
+    - http://78.46.225.191:9999/
 
 ---
