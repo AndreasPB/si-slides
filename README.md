@@ -100,3 +100,44 @@ Dependency Injection
 <img src="static/dependency_injection.png">
 
 ---
+
+# Deployment
+
+- Multiple service instances per host
+- Single Service Instance per Host
+- Serverless deployment
+
+---
+
+## Multiple 
+
+Pros
+- Efficient resource utilization
+
+Cons
+- Conflicting resource requirements
+
+---
+
+## Single
+
+Pros
+- Clear isolation
+- No conflicts in resources or dependencies
+
+Cons
+- Resource utilization overhead
+
+---
+
+## Serverless
+
+Pros
+- Elastic scaling
+- Reduced time spend on low-level infrastructure
+
+Cons
+- Limitations/constrains
+- Reactive scaling
+
+---
