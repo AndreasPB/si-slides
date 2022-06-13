@@ -14,7 +14,9 @@
 
 ---
 
-# Demo
+<video controls>
+  <source src="static/si-demo.mp4" type="video/mp4">
+</video>
 
 ---
 
@@ -22,7 +24,7 @@
 
 - Motivation
   - Decoupling of clients from services
-  - Data transformation/Conversion between transport protocols
+  - Data transformation/conversion
   - Routing between services
 
 ---
@@ -37,12 +39,25 @@
 
 ---
 
+# Driver
+
+Hoppscotch/Postman
+
+- https://hoppscotch.io/
+
+---
+
 - Pros
-  - Centralized integration logic makes for easier development of services
+  - Centralized integration makes for easier development of services
   - Many transport protocols can be supported at once
+  - Keeps you from implementing all of your protocols in every service
+
+---
+
 - Cons
   - Single point of failure
-  - ESB becomes a monolith, more difficult to maintain
+  - ESB becomes a monolith and difficult to maintain
+
 - Alternatives
   - Smart endpoints and dumb pipes
 
@@ -50,16 +65,22 @@
 
 # Microservices
 
-Containerization
-  
-<img src="static/containers.png">
+<img src="static/containers.png" height="400px">
 
 ---
 
-- Database per Service
-- Deployment
-  - Serverless frontend with Vercel
-- API Gateway
+# Hosted
+
+- Vercel:
+  - Frontend
+    - https://si-mandatory1.vercel.app/
+
+- Hetzner:
+  - Backend
+    - http://python.si.streamchaser.tv/docs
+  - ESB
+    - http://78.46.225.191:9999/
+
 
 ---
 
@@ -77,9 +98,5 @@ Dependency Injection
 <img src="static/verify_mitid.png">
 
 <img src="static/dependency_injection.png">
-
----
-
-# 
 
 ---
