@@ -80,6 +80,32 @@ Dependency Injection
 
 ---
 
-# 
+# Microservices Architecture Patterns
 
 ---
+
+# Database per Service
+
+Loose coupling of services, independent scaling, minimize downtime
+
+Different data storage requirements
+  - Relational, NoSQL, graph, in-memory
+
+Private tables, schemas, or whole databases?
+
+Problems:
+- Difficult to query across services
+
+---
+
+# Service Discovery
+
+Service Registry
+  - Self-discovery
+  - Third Party Discovery
+
+Two ways:
+- Client-side Discovery
+  - Client acts as load-balancer
+- Server-side Discovery
+  - A router is provided which handles load-balancing
