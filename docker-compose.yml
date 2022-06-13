@@ -6,6 +6,6 @@ services:
     ports:
       - "1948:1948"
       - "35729:35729"
-    command: ["README.md", "-w"]
+    command: ["README.md", "-w", "--theme", "night"]
     volumes:
       - .:/slides

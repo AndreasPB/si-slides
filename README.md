@@ -52,7 +52,7 @@ Hoppscotch/Postman
 
 ---
 
-# Containers
+## Containers
 
 Database per service
 
@@ -119,7 +119,7 @@ Dependency Injection
 
 ---
 
-# Our hosting
+## Our hosting
 
 - Vercel:
   - Frontend
